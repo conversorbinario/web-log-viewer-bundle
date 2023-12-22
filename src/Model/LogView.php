@@ -14,7 +14,7 @@ class LogView
 {
     public static function logToArray($log)
     {
-        $lines = Collection::createFromString($log, 'Greenskies\WebLogViewerBundle\Model\LineView');
+        $lines = Collection::createFromString($log, 'Conversorbinario\WebLogViewerBundle\Model\LineView');
         $return = [];
         foreach ($lines as $line) {
 
