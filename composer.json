@@ -1,7 +1,7 @@
 {
-    "name": "greenskies/web-log-viewer-bundle",
+    "name": "conversorbinario/migrated-greenskies",
     "type": "symfony-bundle",
-    "description": "Symfony Web Log Viewer Bundle",
+    "description": "Symfony Web Log Viewer Bundle Adapte for 4^onwards",
     "keywords": ["log viewer"],
     "license": "MIT",
     "authors": [
@@ -13,8 +13,8 @@
     "require": {
         "greenskies/collection": "^0.0.3",
         "jdorn/sql-formatter": "^1.2",
-        "sensio/framework-extra-bundle": "^3.0.2||^5.0",
-        "symfony/framework-bundle": "^3.3||^4.0",
+        "sensio/framework-extra-bundle": "^5.0",
+        "symfony/framework-bundle": "^4.0||^5.0",
         "twig/twig": "^2.4"
     },
     "require-dev": {
