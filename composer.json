@@ -1,7 +1,7 @@
 {
-    "name": "conversorbinario/migrated-greenskies",
+    "name": "conversorbinario/web-log-viewer-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony Web Log Viewer Bundle Adapte for 4^onwards",
+    "description": "Symfony Web Log Viewer Bundle Adapted for Symfony ^4.0 onwards",
     "keywords": ["log viewer"],
     "license": "MIT",
     "authors": [
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Greenskies\\WebLogViewerBundle\\": "src"
+            "Conversorbinario\\WebLogViewerBundle\\": "src"
         },
         "exclude-from-classmap": [
             "/Tests/"

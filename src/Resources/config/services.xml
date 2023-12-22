@@ -4,11 +4,11 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="Greenskies\WebLogViewerBundle\Controller\LogViewerController" public="true" autowire="true">
+        <service id="Conversorbinario\WebLogViewerBundle\Controller\LogViewerController" public="true" autowire="true">
             <argument type="service" id="kernel"/>
             <tag name="controller.service_arguments"/>
         </service>
-        <service id="Greenskies\WebLogViewerBundle\Controller\LogListController" public="true" autowire="true">
+        <service id="Conversorbinario\WebLogViewerBundle\Controller\LogListController" public="true" autowire="true">
             <argument type="service" id="kernel"/>
             <tag name="controller.service_arguments"/>
         </service>

@@ -1,8 +1,8 @@
 <?php
 
-namespace Greenskies\WebLogViewerBundle\Controller;
+namespace Conversorbinario\WebLogViewerBundle\Controller;
 
-use Greenskies\WebLogViewerBundle\Model\LogList;
+use Conversorbinario\WebLogViewerBundle\Model\LogList;
 use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;

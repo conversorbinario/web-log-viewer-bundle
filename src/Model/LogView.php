@@ -6,7 +6,7 @@
  * Time: 8:59 PM
  */
 
-namespace Greenskies\WebLogViewerBundle\Model;
+namespace Conversorbinario\WebLogViewerBundle\Model;
 
 use Greenskies\Collection;
 

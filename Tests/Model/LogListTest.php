@@ -1,8 +1,8 @@
 <?php
 
-namespace Greenskies\WebLogViewerBundle\Tests\Model;
+namespace Conversorbinario\WebLogViewerBundle\Tests\Model;
 
-use Greenskies\WebLogViewerBundle\Model\LogList;
+use Conversorbinario\WebLogViewerBundle\Model\LogList;
 
 class LogListTest extends \PHPUnit\Framework\TestCase
 {

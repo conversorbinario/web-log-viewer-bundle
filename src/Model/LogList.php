@@ -1,6 +1,6 @@
 <?php
 
-namespace Greenskies\WebLogViewerBundle\Model;
+namespace Conversorbinario\WebLogViewerBundle\Model;
 
 
 class LogList

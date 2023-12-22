@@ -6,7 +6,7 @@
  * Time: 5:14 AM
  */
 
-namespace Greenskies\WebLogViewerBundle\Model;
+namespace Conversorbinario\WebLogViewerBundle\Model;
 
 class LineView
 {

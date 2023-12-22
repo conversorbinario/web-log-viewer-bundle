@@ -1,6 +1,6 @@
 <?php
 
-namespace Greenskies\WebLogViewerBundle;
+namespace Conversorbinario\WebLogViewerBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
