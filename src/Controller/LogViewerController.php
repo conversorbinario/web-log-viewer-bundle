@@ -41,7 +41,7 @@ class LogViewerController extends AbstractController
 
         if($delete) {
             unlink($logfile);
-            return $this->redirectToRoute('greenskies_weblogviewer_loglist_loglist');
+            return $this->redirectToRoute('conversorbinario_weblogviewer_loglist_loglist');
         }
 
         if (file_exists($logfile)) {
