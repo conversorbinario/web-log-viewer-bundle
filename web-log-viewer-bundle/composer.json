@@ -1,0 +1,36 @@
+{
+    "name": "greenskies/web-log-viewer-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Web Log Viewer Bundle",
+    "keywords": ["log viewer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Todd Eidson",
+            "email": "todd@eidson.info"
+        }
+    ],
+    "require": {
+        "greenskies/collection": "^0.0.3",
+        "jdorn/sql-formatter": "^1.2",
+        "sensio/framework-extra-bundle": "^3.0.2||^5.0",
+        "symfony/framework-bundle": "^3.3||^4.0",
+        "twig/twig": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Greenskies\\WebLogViewerBundle\\": "src"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "bin-dir": "bin"
+    }
+}
