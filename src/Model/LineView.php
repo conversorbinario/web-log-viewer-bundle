@@ -18,7 +18,9 @@ class LineView
 
     public function __construct($line)
     {
-        $dateLength = strlen('[yyyy-mm-dd hh:mm:ss] ');
+        $dateLength = strlen("[2023-12-22T11:30:30.387157+01:00]");
+        $dateLength = strlen("[yyyy-mm-ddTHH:ii:ss.uuuuuu+PP:PP]");
+
         // borrowed parsing from here, might be able to borrow more!
         // https://gist.github.com/chriskonnertz/46423c15a38badf3133fda391448667e
         $this->dateTime = trim(substr($line, 0, $dateLength));
